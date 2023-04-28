@@ -1,16 +1,31 @@
-# flutter_application_5
+# Campus Master
 
-A new Flutter project.
+Campus Master is a College Management App that works on Android & iOS!
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+1. Details of University
+2. Student Section
+3. Teacher Section
+4. Admin Section
+5. All type of Course Info
+6. Campus Location
+7. Login Methods
+8. All types of Personal Deatils
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Extra Feature
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In this app include a Metting to Create and Jain the meeting.
+
+<p align="center">
+	<img width="600" src="https://github.com/rsagar024/Campus_Master/blob/master/screenshot.png" alt="Campus Master Image">
+</p>
+
+## Tech Used
+**Server**: Firebase Auth, Firestore, Cloud Storage, Google Sign In, Forget Password, Jitsi Meet
+**Client**: Flutter
+
+## Feedback
+
+If you have any feedback, please reach out to me at ssahu4053@gmail.com
