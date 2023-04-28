@@ -24,6 +24,7 @@ In this app include a Metting to Create and Jain the meeting.
 
 ## Tech Used
 **Server**: Firebase Auth, Firestore, Cloud Storage, Google Sign In, Forget Password, Jitsi Meet
+
 **Client**: Flutter
 
 ## Feedback
