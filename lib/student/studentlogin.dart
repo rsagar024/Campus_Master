@@ -25,10 +25,10 @@ class _StudentLoginScreenState extends State<StudentLoginScreen> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned(
-            top: 0,
-            right: 0,
-            left: 0,
+          SingleChildScrollView(
+            // top: 0,
+            // right: 0,
+            // left: 0,
             child: Container(
               height: 1000,
               decoration: BoxDecoration(
