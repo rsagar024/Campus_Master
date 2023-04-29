@@ -92,16 +92,11 @@ class _AdminLoginScreenState extends State<AdminLoginScreen> {
               height: 10,
             ),
             
-                Align(
-                  alignment: Alignment.center,
-                  child: TextButton(onPressed: (){
-                     Navigator.push(context, MaterialPageRoute(builder: (context)=>AdminRegisterScreen()));
-                  }, child: Text("Don't have an account?Register"))),
-         
-                
-              
-                
-              
+                // Align(
+                //   alignment: Alignment.center,
+                //   child: TextButton(onPressed: (){
+                //      //Navigator.push(context, MaterialPageRoute(builder: (context)=>AdminRegisterScreen()));
+                //   }, child: Text("Don't have an account?Register"))),
                   ]
                 ),
               ),
