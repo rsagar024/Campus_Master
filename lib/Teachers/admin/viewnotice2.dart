@@ -2,9 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_application_5/Teachers/admin/admindashboard.dart';
 import 'package:flutter_application_5/Teachers/noticedashboard.dart';
-import 'package:flutter_application_5/student/studentdashboard.dart';
 
 
 class ViewNotice2 extends StatefulWidget {

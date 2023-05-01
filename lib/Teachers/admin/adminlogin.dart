@@ -1,11 +1,8 @@
-import 'package:email_validator/email_validator.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_application_5/Teachers/admin/admindashboard.dart';
 import 'package:flutter_application_5/Teachers/admin/adminhelper.dart';
-import 'package:flutter_application_5/Teachers/admin/adminregister.dart';
 
 class AdminLoginScreen extends StatefulWidget {
   const AdminLoginScreen({Key? key}) : super(key: key);

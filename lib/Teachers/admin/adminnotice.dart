@@ -1,11 +1,8 @@
-//import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_application_5/Teachers/admin/admindashboard.dart';
-import 'package:flutter_application_5/Teachers/dashboard.dart';
-//import 'package:flutter_application_4/teacher.dart/teacherdashboard.dart';
 
 
 

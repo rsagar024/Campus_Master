@@ -1,10 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_5/Teachers/report/home.dart';
-import 'package:flutter_application_5/Teachers/report/report.dart';
 
-
-//import '../../report/reportcard.dart';
 
 class editnote extends StatefulWidget {
   DocumentSnapshot docid;

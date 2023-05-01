@@ -2,12 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 import 'homeattendence.dart';
-//import 'package:flutter_application_4/teacher.dart/report/home.dart';
-//import 'package:flutter_application_4/teacher.dart/report/reportt.dart';
 
-
-
-//import '../../report/reportcard.dart';
 
 class editstudentattendence extends StatefulWidget {
   DocumentSnapshot docid;

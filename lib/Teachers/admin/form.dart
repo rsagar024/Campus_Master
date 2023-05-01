@@ -6,7 +6,6 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:liquid_progress_indicator/liquid_progress_indicator.dart';
 
 class UploadFile2 extends StatefulWidget {
   const UploadFile2({Key? key}) : super(key: key);

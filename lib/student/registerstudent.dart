@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_application_5/Teachers/admin/studentsection.dart';
-import 'package:flutter_application_5/Teachers/teacherhelper.dart';
-import 'package:flutter_application_5/Teachers/teacherlogin.dart';
 import 'package:flutter_application_5/student/studenthelper.dart';
 
 class RegisterStudent extends StatefulWidget {

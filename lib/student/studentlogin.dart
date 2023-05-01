@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_application_5/student/registerstudent.dart';
 import 'package:flutter_application_5/student/studenthelper.dart';
 import 'package:flutter_application_5/student/studentresetpassword.dart';
 import '../resetpassword.dart';

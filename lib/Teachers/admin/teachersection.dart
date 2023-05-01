@@ -1,18 +1,9 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_application_5/Teachers/admin/admindashboard.dart';
 import 'package:flutter_application_5/Teachers/admin/teacherdata.dart';
-import 'package:flutter_application_5/Teachers/admin/adminlogin.dart';
-import 'package:flutter_application_5/Teachers/attendence/homeattendence.dart';
-import 'package:flutter_application_5/Teachers/notice.dart';
-import 'package:flutter_application_5/Teachers/provideassignment.dart';
 import 'package:flutter_application_5/Teachers/registerteacher.dart';
-import 'package:flutter_application_5/Teachers/report/home.dart';
-import 'package:flutter_application_5/Teachers/teacherhelper.dart';
-import 'package:flutter_application_5/Teachers/teacherprofile.dart';
 
 class TeacherSectionScreen extends StatefulWidget {
   const TeacherSectionScreen({Key? key}) : super(key: key);

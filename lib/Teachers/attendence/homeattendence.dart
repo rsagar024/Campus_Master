@@ -8,25 +8,6 @@ import 'package:flutter_application_5/Teachers/dashboard.dart';
 
 
 
-/*class MyApp extends StatefulWidget {
-  @override
-  _MyAppState createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: "Student report",
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primaryColor: Color.fromARGB(255, 0, 11, 133),
-      ),
-      home: Home(),
-    );
-  }
-}*/
-
 class AttendenceHome extends StatefulWidget {
   @override
   _AttendenceHomeState createState() => _AttendenceHomeState();
