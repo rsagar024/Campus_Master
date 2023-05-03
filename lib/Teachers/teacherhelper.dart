@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_5/Teachers/admin/teachersection.dart';
 import 'package:flutter_application_5/Teachers/dashboard.dart';
-import 'package:flutter_application_5/Teachers/teacherlogin.dart';
+import 'package:flutter_application_5/screen/screen.dart';
 
 
 class AuthService{
@@ -85,7 +85,7 @@ class AuthService{
   }
   void logOutUser(context)async{
     await auth.signOut();
-    Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>LoginScreen()), (route) => false);
+    Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>Screen()), (route) => false);
   }
 
 

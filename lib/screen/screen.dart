@@ -141,7 +141,7 @@ class _ScreenState extends State<Screen> {
   Widget includeAppBar() => SliverAppBar(
     backgroundColor: Colors.lightBlueAccent,
     elevation: 0,
-    title: Text('Dashboard',
+    title: Text('Welcome to AJU',
         style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold)),
     centerTitle: true,
   );

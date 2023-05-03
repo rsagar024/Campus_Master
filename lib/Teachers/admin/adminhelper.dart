@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_5/Teachers/admin/admindashboard.dart';
-import 'package:flutter_application_5/Teachers/admin/adminlogin.dart';
+import 'package:flutter_application_5/screen/screen.dart';
 
 
 class AAuthService{
@@ -84,7 +84,7 @@ class AAuthService{
   }
   void logOutUser(context)async{
     await Aauth.signOut();
-    Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>AdminLoginScreen()), (route) => false);
+    Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>Screen()), (route) => false);
   }
 
 

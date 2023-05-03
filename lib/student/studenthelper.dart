@@ -3,8 +3,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_5/Teachers/admin/studentsection.dart';
+import 'package:flutter_application_5/screen/screen.dart';
 import 'package:flutter_application_5/student/studentdashboard.dart';
-import 'package:flutter_application_5/student/studentlogin.dart';
 
 class SAuthService{
   final auth= FirebaseAuth.instance;
@@ -83,7 +83,7 @@ class SAuthService{
   }
   void logOutUser(context)async{
     await auth.signOut();
-    Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>StudentLoginScreen()), (route) => false);
+    Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>Screen()), (route) => false);
   }
 
 
