@@ -30,6 +30,9 @@ In this app include a Metting to Create and Jain the meeting.
 ## Feedback
 
 If you have any feedback, please reach out to 
-        \n ssahu4053@gmail.com
-        \n spremkumar734@gmail.com
-        \n sudeshmahato000@gmail.com
+
+        ssahu4053@gmail.com
+
+        spremkumar734@gmail.com
+
+        sudeshmahato000@gmail.com
