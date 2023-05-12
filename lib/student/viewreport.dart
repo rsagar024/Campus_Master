@@ -72,60 +72,54 @@ class _ViewReportState extends State<ViewReport> {
                               /*SizedBox(
                                 height: 10,
                               ),*/
-                              Row(
-                                children: [
-                                  Container(
-                                    padding: EdgeInsets.all(4.0),
-                                    //width: 160,
-                                    child: Row(
-                                      children: [
-                                        Text("Student id:",style: TextStyle(
-                                           // fontSize: 12,
-                                            color: Colors.black,
-                                            fontWeight: FontWeight.bold,
-                                          ),),
-                                        SizedBox(width:2,),
-                                        Text(
-                                          snapshot
-                                              .data!.docChanges[index].doc['student_id'],
-                                          style: TextStyle(
-                                           // fontSize: 12,
-                                            color: Colors.black,
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        )
-                                      ],
-                                    ),
-                                  ),
-                                   Container(
-                                padding: EdgeInsets.all(4.0),
+                              Container(
+                                padding: EdgeInsets.all(8.0),
                                 //width: 160,
                                 child: Row(
                                   children: [
-                                    Text("Course:"),
-                                    SizedBox(width: 2,),
+                                    Text("Student id:",style: TextStyle(
+                                       // fontSize: 12,
+                                        color: Colors.black,
+                                        fontWeight: FontWeight.bold,
+                                      ),),
+                                    SizedBox(width:2,),
                                     Text(
-                                      snapshot.data!.docChanges[index]
-                                          .doc['course'],
+                                      snapshot
+                                          .data!.docChanges[index].doc['student_id'],
                                       style: TextStyle(
                                        // fontSize: 12,
                                         color: Colors.black,
-                                        fontWeight: FontWeight.w400,
+                                        fontWeight: FontWeight.bold,
                                       ),
                                     )
                                   ],
                                 ),
                               ),
-                                ],
+                               Container(
+                                padding: EdgeInsets.only(left: 8.0, right: 8.0, top: 4.0, bottom: 4.0),
+                                //width: 160,
+                                child: Row(
+                              children: [
+                                Text("Course:"),
+                                SizedBox(width: 2,),
+                                Text(
+                                  snapshot.data!.docChanges[index]
+                                      .doc['course'],
+                                  style: TextStyle(
+                                   // fontSize: 12,
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.w400,
+                                  ),
+                                )
+                              ],
+                                ),
                               ),
                               
                               /*SizedBox(
                                 height: 10,
                               ),*/
-                              Row(
-                                children:[
                               Container(
-                                padding: EdgeInsets.all(8.0),
+                                padding: EdgeInsets.only(left: 8.0, right: 8.0, top: 4.0, bottom: 4.0),
                               //  width: 160,
                                 child: Row(
                                   children: [
@@ -148,13 +142,13 @@ class _ViewReportState extends State<ViewReport> {
                                 width: 10,
                               ),
                                  Container(
-                                padding: EdgeInsets.all(8.0),
+                                padding: EdgeInsets.only(left: 8.0, right: 8.0, top: 4.0, bottom: 4.0),
                                 //width: 160,
                                 child: Row(
                                   children: [
                                       Text("Subject:"),
                                       SizedBox(width: 2,),
-                                   
+
                                               Text(
                                       snapshot.data!.docChanges[index]
                                           .doc['subject'],
@@ -166,21 +160,19 @@ class _ViewReportState extends State<ViewReport> {
                                     ),
                                   ],
                                 )
-                                    
+
                                     //SizedBox(width: 20,),
-                                  
-                                  
-                                
+
+
+
                               ),
-                            
-                          ]),
                           Row(
                             children: [ 
                                SizedBox(
                                 height: 10,
                               ),
                               Container(
-                                padding: EdgeInsets.all(8.0),
+                                padding: EdgeInsets.only(left: 8.0, right: 8.0, top: 4.0, bottom: 4.0),
                                 //width: 160,
                                 child: Row(
                                   children: [
@@ -205,7 +197,7 @@ class _ViewReportState extends State<ViewReport> {
                                 
                               ),
                              Container(
-                                padding: EdgeInsets.all(8.0),
+                                padding: EdgeInsets.only(left: 8.0, right: 8.0, top: 4.0, bottom: 4.0),
                                 //width: 160,
                                 child: Row(
                                   children: [

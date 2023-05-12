@@ -100,8 +100,6 @@ class _ViewAttendenceState extends State<ViewAttendence> {
                               /*SizedBox(
                                 height: 10,
                               ),*/
-                              Row(
-                                children:[
                               Container(
                                 padding: EdgeInsets.all(8.0),
                               //  width: 160,
@@ -143,11 +141,6 @@ class _ViewAttendenceState extends State<ViewAttendence> {
                                   ],
                                 ),
                               ),
-                               /* SizedBox(
-                                height: 10,
-                              ),*/
-                       
-                          ]),
                            Container(
                                 padding: EdgeInsets.all(8.0),
                                 //width: 160,
